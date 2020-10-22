@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="Test1">
+  	<parameter name="browsername" value="firefox"/>
+  	<parameter name="mnumber" value="9848756269"/>
+  	<parameter name="mnocriteria" value="valid"/>
+  	<parameter name="pword" value="2404"/>
+  	<parameter name="pwdcriteria" value="valid"/>
+  	<parameter name="comments" value="valid details"/>
+  	<classes>
+  		<class name = "tests.Runner3XmlProvider"/>
+  	</classes>
+  </test> 
+</suite> 
